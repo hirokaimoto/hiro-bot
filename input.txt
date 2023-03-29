@@ -1,0 +1,1703 @@
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+CONTROLE ESTATÍSTICO DO PROCESSO: UM ESTUDO DE CASO
+EM UMA FÁBRICA DE COLCHÕES
+YOSCHIHIRO ZENO JACOBY KAIMOTO
+OLIVIA TOSHIE OIKO
+Resumo
+O presente artigo consiste um estudo de caso do controle estatístico de processos em uma
+fábrica de colchões localizada no Norte do Paraná, este documento contém os métodos,
+desenvolvidos ao longo do projeto, inicialmente mapeou-se o processo alvo, definiu-se a
+característica a ser monitorada, no caso as alturas dos colchões, realizou-se gráficos de Pareto
+para definir os modelos de interesse e definiu-se o método de coleta de dados. Com os dados
+iniciou-se a etapa de análise, com o auxílio do software Minitab plotou-se as cartas de controle,
+os histogramas de capacidade/performance, calculou-se as estatísticas de
+capacidade/performance e analisou-se cada modelo alvo do estudo. Com base na análise
+realizou-se um plano de ação visando reduzir e corrigir os problemas identificados, fez se o
+uso de ferramentas da qualidade como: Diagrama de Ishikawa, Matriz 5W2H. Através do
+estudo constatou-se possíveis reduções estruturais nas lâminas de espuma de dois dos modelos
+estudados, acarretando em uma economia anual. Também foram propostas diversas melhorias
+nos setores a fim de se reduzir a variabilidade atual.
+Palavras-chave: Controle Estatístico da Qualidade; Cartas de Controle; Análise de
+capabilidade; CEP.
+1. Introdução
+Nos dias atuais as empresas buscam cada vez mais formas de atender aos requisitos do
+cliente nos mais diversos aspectos. A qualidade dos produtos ganhou um maior impacto ao
+decorrer do tempo, a necessidade de um controle sobre o processo se torna cada vez mais
+indispensável para a competitividade no mercado, a capacidade de repetitividade com variações
+dentro de controle é um fator chave para o setor produtivo de um empreendimento eficaz. A
+gestão da qualidade proporciona uma cultura na qual o lucro é consequência da qualidade total
+do produto entregue ao cliente. Segundo a norma NBR ISO 9000:2005 (ABNT) a qualidade
+pode ser definida como: “grau no qual um conjunto de características inerentes satisfaz a
+requisitos”. A presença de um órgão regulador somada a demanda de clientes cada vez mais
+exigentes quanto à qualidade, entrega e custo de seus produtos faz com que as empresas que
+buscam excelência em gestão da qualidade tenham destaque competitivo no mercado.
+Os custos gerados para assegurar a qualidade do processo antes da entrega ao
+consumidor muitas vezes possuem um menor impacto orçamental do que os custos gerados
+com devoluções e retrabalhos, além do possível impacto sobre a credibilidade da empresa. Pela
+Engenharia de Produção - UEM Página 1
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+diretoria da empresa para que se obtenha um desenvolvimento contínuo na qualidade de
+processos e produtos.
+Este estudo foi realizado em uma fábrica de colchões de mola e de espuma, situada em
+Maringá – PR, no qual atualmente existe apenas um controle de qualidade dos produtos
+acabados com inspeção visual 100% que não gera registro histórico. Recentemente a empresa
+passou por um processo de certificação para alguns modelos de colchões, e estes agora estão
+sujeitos a inspeções pelo órgão sem aviso prévio. O intuito deste trabalho é criar um plano de
+inspeção dimensional amostral durante o processo para parâmetros importantes, para ação
+imediata mas também com a geração de registros que possam ser analisados em profundidade
+depois e gerar melhorias no processo.
+Na empresa alvo do estudo o departamento de qualidade é relativamente novo e ainda
+pouco desenvolvido, não existe um controle de qualidade estatístico do processo sobre as
+especificações do produto. A empresa vêm reconhecendo a importância do setor responsável
+pela qualidade, pois foi essencial para as credenciações do Instituto Nacional de Metrologia,
+Qualidade e Tecnologia (INMETRO) e Instituto Nacional de Estudos do Repouso (INER) para
+determinados modelos de colchões, o órgão avalia as especificações presentes na etiqueta do
+produto como densidade, espessura e camadas das espumas, como também uma série de outros
+testes específicos para as espumas flexíveis de poliuretano utilizadas nos produtos. Com base
+no atendimento dos requisitos propostos, certificaram-se determinadas famílias de colchões
+submetidos. Agora com os colchões já credenciados e sujeitos a auditorias pelo órgão regulador,
+surge uma nova demanda para a empresa, que até então não possuía um monitoramento das
+dimensões de seu produto acabado. Outro fator que contribuiu para a pertinência do estudo, é
+o questionamento de clientes para com o atendimento dos requisitos presentes nos produtos.
+Com isso mostra-se vantajoso introduzir o controle estatístico da qualidade nos processos para
+assegurar que estes produtos estejam com as especificações dentro das exigidas pelos clientes,
+monitorando parâmetros nos produtos que sejam avaliados pelos órgãos credenciadores e
+também no caso da existência de produtos fora de controle identificar as possíveis causas de
+tais variações.
+Na empresa estudada o existe apenas uma inspeção de qualidade sobre o produto
+acabado, onde um operador realiza a conferência do acabamento do produto, e realiza as aparas
+de sobras de linhas. O mix de produção da empresa é vasto porém apenas alguns modelos
+selecionados possuem a certificação e são esses os objetos de estudo. A empresa não apresenta
+um estudo sobre as causas dos defeitos de seus produtos em geral, devido a isto, os custos da
+má qualidade são elevados. O trabalho realizado contribuirá para o desenvolvimento do
+Engenharia de Produção - UEM Página 2
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+departamento de qualidade como um todo, introduzindo o controle estatístico da qualidade para
+a empresa proporcionando uma documentação estatística do processo, identificação das
+principais causas e as propostas de melhoria.
+Assim, este trabalho tem por objetivo implementar o controle estatístico do processo
+para os produtos certificados e analisar as causas das variabilidades do processo.
+Como objetivos específicos, tem-se:
+ Mapear o processo alvo
+ Elaborar o gráfico de controle para os produtos certificados
+ Analisar as causas das variabilidades
+ Analisar a necessidade de mudanças no processo
+2. Gestão da qualidade
+Inicialmente surgiu como solução para os erros em produtos bélicos na Segunda Guerra
+Mundial, após o sucesso demonstrado observou-se uma evolução significativa nos estudos,
+passou a ser chamada de garantia da qualidade e posteriormente controle da qualidade. Na
+literatura, não existe uma definição única e universal para qualidade, os diversos gurus
+apresentam definições diferentes, para Crosby (1995), qualidade significa atender às
+especificações. Para Deming (2000), significa atender, e se possível exceder as expectativas do
+cliente. O foco da gestão está em atender os requisitos do mercado e do cliente, está relacionado
+as atividades para assegurar a qualidade desejada ao produto ou serviço. A ação da gestão da
+qualidade, passou a ganhar importância, visto que se considera que existe um processo natural
+de transferência de valores, hábitos e comportamentos do meio social para o interior das
+organizações. Os conceitos equivocados da qualidade resultam em esforços desnecessários e
+muitas vezes errôneos, com isso a gestão da qualidade foca agora na criação de uma cultura da
+qualidade, ou seja, transformar qualidade em valor (PALADINI, 2004).
+2.1 Controle Estatístico da Qualidade
+Uma das condições básicas para a manutenção da qualidade é o controle permanente dos
+processos. Walter A. Shewhart por volta de 1924 formalizou controle estatístico de processos
+quando desenvolveu e aplicou os gráficos de controle nos Bell Telephone Laboratories. A
+eficácia de uma carta de controle é medida pela rapidez com que se detecta as alterações no
+processo, os parâmetros de implantação devem ser norteados pela análise da relação entre o
+custo operacional e a eficácia da ferramenta (COSTA, EPPRECHT E CARPINETTI, 2004).
+Engenharia de Produção - UEM Página 3
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Todos os processos possuem variabilidade, porém existem variâncias aceitáveis para cada
+tipo de indústria. O uso das ferramentas estatísticas atua na diminuição da variabilidade, as
+causas de tal variação podem ser proveniente de Causas Comuns, que são as causas inerentes
+ao processo ou Causas Especiais, que são situações esporádicas e específicas (WERKEMA,
+1995).
+RIBEIRO e CATEN (1998) sugerem o uso da seguinte abordagem de melhorias no CEP:
+Figura 1 - Fluxograma
+Fonte: RIBEIRO e CATEN, 1998
+Nas seções a seguir, a avaliação da estabilidade do processo é apresentada no item 2.2. Em
+seguida, na seção 2.3 é apresentada a forma de avaliar a capacidade do processo, caso ele esteja
+sob controle, caso não esteja analisa-se a performance. E em caso de os dados não possuírem
+distribuição normal na seção 2.5.
+2.2 Gráficos de Controle da qualidade
+O gráfico de controle é uma ferramenta importante para verificar a estabilidade do
+processo, verificar as variações do processo, verificar a natureza das causas e analisar se o
+processo se encontra sob controle ou não. O foco desta ferramenta é identificar as Causa
+Especiais, pois estas são identificadas e eliminadas, pois são geralmente as responsáveis pela
+maior parte da variabilidade do processo, caso o processo esteja atuando sob estas causas,
+denomina-se o processo fora de controle estatístico (COSTA et al, 2004).
+Engenharia de Produção - UEM Página 4
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Existem dois tipos de gráficos de controle, por variáveis, no qual as características da qualidade
+são expressos por números contínuos em uma escala de medida e por atributos, onde as medidas
+do gráfico representam número de produtos com determinada característica estabelecida
+(atributo) (COSTA et al, 2004).
+Figura 2 – Gráfico de controle X-Barra (Média)
+Fonte: Portal Action (2016)
+A Figura 1 mostra a representação de uma carta de controle de média.
+2.2.1 Gráfico de Controle por variáveis
+Os gráficos de controle por variáveis é utilizado quando as características da qualidade
+que se quer analisar do processo pode ser expressa por valores numéricos, características
+mensuráveis como espessura, diâmetro, peso, volume e etc. Entre os gráficos de controle por
+variáveis tem-se:
+ Gráfico de média: é utilizado para se controlar a média do subgrupo, afere-se a
+média individual para cada amostra;
+ Gráfico de valores individuais e amplitudes móveis: é usado quando a coleta de
+dados é demorada, são coletadas em um grande período de tempo, ou quando a
+formação de subgrupos não se mostra eficiente;
+ Gráfico de desvio padrão: recomenda-se a elaboração deste gráfico quando o
+tamanho da amostra é maior que 9 unidades e possui a finalidade de se controlar o
+desvio padrão dos subgrupos;
+Engenharia de Produção - UEM Página 5
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+ Gráfico de amplitude: usados em conjunto com a carta de média ou desvio, sua
+finalidade é controlar a amplitude dos valores do subgrupo (WERKEMA, 1995).
+2.2.1.1 Carta X
+De acordo com Montgomery (2004) na construção das cartas, o cálculo dos limites pode
+ser obtido pelas equações 1, 2 e 3:
+Limite Superior de Controle:
+3𝑅̅
+𝐿𝑆𝐶 = 𝑋̿ + (1)
+𝑑2√𝑛
+Limite Inferior de Controle:
+3𝑅̅
+𝐿𝐼𝐶 = 𝑋̿ − (2)
+𝑑2√𝑛
+Linha Central:
+𝐿𝐶 = 𝑋̿ (3)
+Onde,
+𝑋̿ = 𝑀é𝑑𝑖𝑎 𝑑𝑎𝑠 𝑚é𝑑𝑖𝑎𝑠
+𝑑 = 𝐶𝑜𝑛𝑠𝑡𝑎𝑛𝑡𝑒
+2
+𝑛 = 𝑇𝑎𝑚𝑎𝑛ℎ𝑜 𝑑𝑎 𝑎𝑚𝑜𝑠𝑡𝑟𝑎
+𝑅̅ = 𝑀é𝑑𝑖𝑎 𝑑𝑎𝑠 𝑎𝑚𝑝𝑙𝑖𝑡𝑢𝑑𝑒𝑠
+2.2.1.2 Carta R
+Os limites de controle para carta R podem ser obtidos pelas equações 4, 5 e 6:
+Limite Superior de Controle:
+𝑅̅
+𝐿𝑆𝐶 = 𝑅̅ +3𝑑 (4)
+3𝑑2
+Limite Inferior de Controle:
+𝑅̅
+𝐿𝑆𝐶 = 𝑅̅ −3𝑑 (5)
+3𝑑2
+Linha Central:
+𝐿𝑆𝐶 = 𝑅̅ (6)
+Onde,
+𝑅̅ = 𝑀é𝑑𝑖𝑎 𝑑𝑎𝑠 𝑎𝑚𝑝𝑙𝑖𝑡𝑢𝑑𝑒𝑠
+𝑑 = 𝐶𝑜𝑛𝑠𝑡𝑎𝑛𝑡𝑒
+2
+𝑑 = 𝐶𝑜𝑛𝑠𝑡𝑎𝑛𝑡𝑒
+3
+Engenharia de Produção - UEM Página 6
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+2.2.1.3 Carta de amplitude móvel
+Os limites de controle para carta de amplitude móvel podem ser obtidos pelas equações
+7, 8, 9 e 10:
+Amplitude Móvel:
+𝑀𝑅 = |𝑥 −𝑥 | (7)
+𝑖 𝑖 𝑖−1
+Limite Superior de Controle:
++3𝑀̅̅̅̅𝑅̅
+𝐿𝑆𝐶 = 𝑋̅ (8)
+𝑑2
+Limite Inferior de Controle:
+−3𝑀̅̅̅̅𝑅̅
+𝐿𝐼𝐶 = 𝑋̅ (9)
+𝑑2
+Linha Central:
+𝐿𝐼𝐶 = 𝑋̅ (10)
+Onde,
+𝑋̅ = 𝑀é𝑑𝑖𝑎
+𝑑 = 𝐶𝑜𝑛𝑠𝑡𝑎𝑛𝑡𝑒
+2
+2.2.2 Gráfico de Controle por Atributos
+As cartas de controle por atributos, são utilizadas quando as características da qualidade
+do produto ou processo não podem ser expressas por valores numéricos, são classificados como
+por exemplo, se o item é ou não defeituoso.
+Tem-se as seguintes cartas de controle por atributos:
+ Gráfico p: Gráfico de controle para proporção ou fração de itens defeituosos;
+ Gráfico np: Gráfico de controle para o número de defeituosos;
+ Gráfico c: Número de defeitos por amostra;
+ Gráfico u: Taxa de defeitos por unidade (WERKEMA, 1995).
+2.2.3 Carta de controle nominal
+Também conhecida como Carta de controle Delta, é uma adaptação das cartas de
+controle para variáveis tradicionais, o que a torna útil é o fato de poder ser utilizada para avaliar
+produtos com características de produção semelhantes, porém especificações de engenharia
+diferentes. Sua vantagem é poder analisar vários modelos em uma única carta de controle.
+Engenharia de Produção - UEM Página 7
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+As situações em que se enquadram o uso da carta de controle nominal são (WISE e FAIR,
+1998):
+ Produtos com características similares e com diferentes dimensões;
+ Produção com pequenos lotes;
+ Grande diversidade de produtos e com baixo volume de produção.
+2.3 Capacidade do processo
+As análises de capacidade dos processos, possui a finalidade de se verificar se o
+processo está estatisticamente sob controle e se atende às especificações de engenharia.
+Montgomery (2004) cita as principais utilizações da análise de capacidade, isto é, predizer até
+que ponto o processo manterá as tolerâncias, auxiliar os laboradores/planejadores do produto
+na seleção ou modificação de um processo, especificar exigências de desempenho para um
+equipamento novo selecionar entre vendedores concorrentes, planejar a sequencial de
+processos de produção quando há um efeito interativo de processo sobre as tolerâncias e
+reduzir a variabilidade em um processo de fabricação. Existem diversas técnicas para a
+análise do processo, dentre eles, os índices Cp, Cpk e Cpm. As interpretações dos índices
+estão apresentadas na Tabela 1.
+Tabela 1 – Escalas de capacidade
+Valor do Cpk % peças fora da especificação (aproximado) Diagnóstico
+0,33 32,0 Totalmente Incapaz
+0,67 4,4 Incapaz
+1,0 0,27 Capaz
+1,33 0,0064 Muito Capaz
+1,67 < 0,0064 Extremamente Capaz
+Fonte: Adaptado de RIBEIRO e CATEN, 1998
+2.3.1 Índices de capacidade
+Para o cálculo dos índices de capacidade, seguem as equações 11, 12, 13 e 14:
+Índice de capacidade potencial do processo (Juran, 1974) que avalia a variabilidade
+inerente ao processo com suas especificações:
+𝐿𝑆𝐸−𝐿𝐼𝐸
+𝐶𝑝 = (11)
+6𝜎
+Índice de capacidade potencial inferior (Kane, 1986) avalia a localização em relação ao
+limite inferior de especificação:
+𝜇−𝐿𝐼𝐸
+𝐶𝑝𝑖 = (12)
+3𝜎
+Engenharia de Produção - UEM Página 8
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Índice de capacidade potencial superior (Kane, 1986) avalia a localização em relação ao
+limite superior de especificação:
+𝐿𝑆𝐸−𝜇
+𝐶𝑝𝑠 = (13)
+3𝜎
+Índice Cpk, (Kane, 1986) avalia a localização em relação ao pior caso obtido entre Cpi
+e Cps.
+𝐶𝑝𝑘 = 𝑚𝑖𝑛{𝐶𝑝𝑖,𝐶𝑝𝑠} (14)
+Onde,
+𝜇 = 𝑀é𝑑𝑖𝑎 𝑑𝑜 𝑝𝑟𝑜𝑐𝑒𝑠𝑠𝑜
+𝜎 = 𝐷𝑒𝑠𝑣𝑖𝑜 𝑝𝑎𝑑𝑟ã𝑜 𝑒𝑛𝑡𝑟𝑒 𝑎𝑠 𝑎𝑚𝑜𝑠𝑡𝑟𝑎𝑠
+2.4 Performance do processo
+Se trata de uma estimativa da capacidade do processo, quando o mesmo se encontra fora
+de controle. Os conceitos são similares aos de capacidade, porém a performance considera o
+desvio padrão entre os subgrupos, enquanto que a capacidade considera o desvio padrão total
+(MONTGOMERY, 2004).
+2.4.1 Índices de performance
+Para o cálculo dos índices de performance, utiliza-se as equações 15, 16, 17 e 18
+propostas por Herman (1989).
+Índice de Performance potencial do processo, que avalia a variabilidade total ao
+processo com suas especificações:
+𝐿𝑆𝐸−𝐿𝐼𝐸
+𝑃𝑝 = (15)
+6𝜎̂
+Índice de Performance potencial inferior, avalia a localização em relação ao limite
+inferior de especificação:
+𝜇−𝐿𝐼𝐸
+𝑃𝑝𝑖 = (16)
+3𝜎̂
+Índice de Performance potencial superior, avalia a localização em relação ao limite
+superior de especificação:
+𝐿𝑆𝐸−𝜇
+𝑃𝑝𝑠 = (17)
+3𝜎̂
+Índice Ppk, avalia a localização em relação ao pior caso obtido entre Ppi e Pps:
+𝑃𝑝𝑘 = 𝑚𝑖𝑛{𝑃𝑝𝑖,𝑃𝑝𝑠} (18)
+Onde,
+𝜇 = 𝑀é𝑑𝑖𝑎 𝑑𝑜 𝑝𝑟𝑜𝑐𝑒𝑠𝑠𝑜
+𝜎̂ = 𝐷𝑒𝑠𝑣𝑖𝑜 𝑝𝑎𝑑𝑟ã𝑜 𝑝𝑜𝑝𝑢𝑙𝑎𝑐𝑖𝑜𝑛𝑎𝑙
+Engenharia de Produção - UEM Página 9
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+2.5 Capacidade para dados não normais
+No caso de prosseguir para a análise de capacidade ao se obter dados com distribuição
+não normal, Montgomery (1996) propõe três alternativas:
+a) Realizar o cálculo dos índices por meio de outra distribuição de probabilidade que
+se ajuste aos dados;
+b) Realizar uma transformação nos dados, para ajusta-los a uma distribuição normal;
+c) Analisar a capacidade através de índices não paramétricos.
+No trabalho optou-se pelo uso da alternativa de transformar os dados.
+2.5.1 Transformação de Johnson
+Slifker e Shapiro (1980) demonstram a seleção das famílias e estimação dos parâmetros,
+chamada também de famílias de transformação de Johnson, consistem em três diferentes
+famílias da distribuição de Johnson:
+Figura 3 – Famílias de distribuição Johnson
+Fonte: Adaptado de SLIFKER e SHAPIRO, 1980
+Onde Y é o dado transformado, X o dado original e Eta, Epsilon, Lambda e Gamma são
+os parâmetros de Johnson. Regras de decisão foram formuladas para a seleção da melhor família
+de distribuição SU, SB ou SL. O método exige o uso de um algoritmo para realizar diversas
+combinações dos parâmetros de Johnson para determinar qual conjunto de parâmetros faz com
+que os dados transformados sejam o mais próximo possível de uma distribuição normal.
+2.6 Diagrama de Pareto
+O princípio de Pareto afirma que para vasto número de eventos, cerca de 80% dos efeitos
+são provenientes de 20% das causas.
+A ferramenta consiste em um gráfico de barras verticais, onde a informação é disposta de
+forma a identificar a priorização de temas. A proposta de Pareto segue a lei dos poucos vitais
+onde um problema pode ser atribuído a um pequeno número de causas vitais, portanto
+direcionando os esforços para a solução de tais, os ganhos serão maiores (WERKEMA, 1995).
+Engenharia de Produção - UEM Página 10
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Figura 4 - Gráfico de Pareto
+Fonte: Autoria própria 2018
+A Figura 4 apresenta os dados presentes em um Diagrama de Pareto.
+2.7 Diagrama de Ishikawa
+Também conhecido como Diagrama de Causa e Efeito ou Diagrama de Espinha de Peixe,
+o primeiro diagrama foi elaborado pelo Professor Kaoru Ishikawa, para explicar para alguns
+engenheiros de uma indústria que os fatores dos processos estavam relacionados. O Diagrama
+proporciona sumarizar e apresentar as causas de um problema analisando os 6 M’s (Medida,
+Mão de obra, Máquina, Matéria Prima, Meio Ambiente, Método), auxiliando na identificação
+da causa principal do problema e corrigi-la (WERKEMA, 1995).
+Engenharia de Produção - UEM Página 11
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Figura 5 – Diagrama de Ishikawa (6 M’s)
+Fonte: Autoria própria 2018
+Na Figura 5 é possível observar a representação do diagrama de Ishikawa, o formato
+lembra uma espinha de peixe no qual o efeito é gerado pelas causas divididas nos 6 M’s.
+2.8 Histograma
+O Histograma consiste em um gráfico de barras, onde o eixo consiste em intervalos e para
+cada um dos intervalos é construída uma barra vertical, na qual a área deve ser proporcional ao
+número de aferições na amostra. O gráfico proporciona uma visualização dos valores centrais
+e a dispersão dos dados ao redor, seu objetivo é evidenciar a distribuição de frequência de
+determinada ocorrência (WERKEMA, 1995).
+Figura 6 - Histograma (Classes x Frequência)
+Fonte: JACOBS; ZANINI (2013, p.6)
+Na Figura 6 tem-se um Histograma genérico com distribuição normal
+Engenharia de Produção - UEM Página 12
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+2.9 Ciclo PDCA
+O ciclo PDCA é um método gerencial de tomada de decisões, a empresa estipula a meta
+e realiza os passos necessários para alcançar o objetivo. Aguiar (2002) afirma que o PDCA deve
+ser utilizado com foco no Gerenciamento pelas Diretrizes, alinhado com o planejamento
+estratégico da empresa e voltado as seguintes formas de gerenciamento:
+ Manutenção da Qualidade: dar previsibilidade aos resultados da empresa
+ Melhoria da Qualidade: para se obter melhoria contínua dos resultados da empresa
+ Planejamento da Qualidade ou Inovação: para promover mudanças radicais nos
+produtos e processos existentes com a finalidade de melhoria contínua.
+O ciclo é composto pelas seguintes etapas:
+ Planejamento (P): Estabelecimento de metas e os métodos para alcançar tal meta;
+ Execução (D): Executar as tarefas como planejadas na etapa anterior, e realizar a
+coleta de dados para a próxima etapa de controle do processo;
+ Verificação (C): Com os dados coletados anteriormente, realizar as análises e
+comparar o resultado real com o resultado planejado;
+ Atuação Corretiva (A): Atuar no processo em função dos dados obtidos, seja adoção
+de novo padrão ou outras medidas para corrigir o não atingimento da meta
+(WERKEMA, 1995).
+Figura 7 – Ciclo PDCA
+Fonte: Shewart (1939)
+Engenharia de Produção - UEM Página 13
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+2.10 Tamanho da amostra para população finita
+As técnicas de amostragem são usadas em diversos setores de atividades humanas,
+viabilizam estudos onde existe a impraticabilidade de se observar numericamente uma
+população por completa e também devido aos custos das investigações. As técnicas
+proporcionam estudos com menor custo, tempo além de possibilitar precisão nos resultados.
+(COCHRAN, 1965).
+O cálculo do tamanho de amostra para uma população finita, pode ser obtido pela equação
+19:
+𝑍2.𝜎2.𝑁
+𝑛 = (19)
+𝜀2(𝑁−1)+𝑍2.𝜎2
+Onde,
+𝑍 = 𝐴𝑏𝑠𝑐𝑖𝑠𝑠𝑎 𝑑𝑎 𝑛𝑜𝑟𝑚𝑎𝑙 𝑝𝑎𝑑𝑟ã𝑜
+𝜎2
+= 𝑉𝑎𝑟𝑖â𝑛𝑐𝑖𝑎 𝑝𝑜𝑝𝑢𝑙𝑎𝑐𝑖𝑜𝑛𝑎𝑙
+𝑁 = 𝑇𝑎𝑚𝑎𝑛ℎ𝑜 𝑑𝑎 𝑝𝑜𝑝𝑢𝑙𝑎çã𝑜
+𝜀 = 𝐸𝑟𝑟𝑜 𝑎𝑚𝑜𝑠𝑡𝑟𝑎𝑙
+𝑛 = 𝑇𝑎𝑚𝑎𝑛ℎ𝑜 𝑑𝑎 𝑎𝑚𝑜𝑠𝑡𝑟𝑎
+Normas de Qualidade aplicadas a colchões
+A certificação dos produtos tanto pelo INMETRO como pelo INER define os requisitos
+que são avaliados propostos pela NBR. Após a certificação os produtos levam costurados o selo
+de certificação do órgão, dando credibilidade aos produtos e a empresa, além de abrir portas
+para novos clientes que consideram a credenciação como diferencial necessário no momento
+da compra. Existem atualmente três modelos de certificação distintos, e cabe a empresa optar
+por um deles (INMETRO, Portaria n 52):
+d) Modelo de certificação 2 – Avaliação inicial consistindo de ensaios em amostras
+retiradas no fabricante, seguida de avaliação de manutenção periódica através de coleta de
+amostra do produto no mercado (exclusivo para MPE).
+e) Modelo de certificação 5 – Avaliação inicial consistindo de ensaios em amostras
+retiradas do fabricante, seguida de avaliação de manutenção periódica através de coleta de
+amostra do produto no mercado.
+f) Modelo de certificação 1b – Ensaio de lote.
+Engenharia de Produção - UEM Página 14
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+A Norma NBR 13579-1: Colchão e colchonete de espuma flexível de poliuretano e bases
+– Parte 1: Requisitos e métodos de ensaio (ABNT, 2011) para colchões de espuma propõe
+outros documentos indispensáveis para a sua aplicação, sendo eles:
+ ABNT NBR 8537, Espuma flexível de poliuretano – Determinação da densidade;
+ ABNT NBR 8619, Espuma flexível de poliuretano – Determinação da resiliência;
+ ABNT NBR 8797, Espuma flexível de poliuretano – Determinação da deformação
+permanente à compressão;
+ ABNT NBR 9176, Espuma flexível de poliuretano – Determinação da força de
+indetação;
+ ABNT NBR 9177, Espuma flexível de poliuretano – Determinação da fadiga dinâmica;
+ ABNT NBR 14961, Espuma flexível de poliuretano – Determinação do teor de cinzas;
+ ABNT NBR 13579-2, Colchão e colchonete de espuma flexível de poliuretano e bases
+– Parte 2: Revestimento.
+As normas ABNT NBR 15413-1 e ABNT NBR 13579-1 contém os parâmetros avaliados
+e as tolerâncias aceitáveis para os colchões de molas e espumas, bem como os métodos de
+ensaios realizados em suas avaliações.
+As tolerâncias em relação a comprimento e largura do produto acabado é de ± 1,5 cm e para
+sua altura final é de – 0,5/+ 1,5 cm para modelos de espuma e ± 1,5 cm para os modelos de
+mola, com base nas dimensões declaradas na etiqueta pelo fabricante. Para a espessura das
+lâminas admite-se ± 0,5 cm da espessura total e individual de cada lâmina.
+3. Metodologia
+Quanto à natureza da pesquisa, ela é considerada como uma pesquisa aplicada, ou seja, gera
+conhecimentos para aplicação prática para a solução de problemas, envolvendo interesses reais.
+Quanto à abordagem, a pesquisa é quantitativa, ou seja, uma aplicação em um caso real que
+pode ser traduzido números e estará presente a aplicação de ferramentas estatísticas para
+análise.
+Do ponto de vista dos objetivos, a pesquisa é descritiva, envolve técnicas de coleta,
+levantamento e análise de dados.
+Quanto aos procedimentos técnicos, o trabalho é uma pesquisa experimental, no qual
+envolve a análise estatística de variáveis que influenciam no produto.
+Para atender ao objetivo proposto, as seguintes etapas serão desenvolvidas:
+ Mapear o processo alvo
+Engenharia de Produção - UEM Página 15
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+ Definir os atributos e variáveis a serem monitorados
+ Realizar a coleta de dados
+ Elaborar o gráfico de controle para os produtos
+ Analisar as causas atuais de variabilidade do processo
+ Elaborar uma rotina para análise das causas de variabilidade do processo
+ Propor ações corretivas
+4. Desenvolvimento
+A empresa alvo de estudo opera na fabricação de colchões no norte do Paraná a mais de 64
+anos, e apresenta alto envolvimento da diretoria para melhoria contínua da empresa como um
+todo. Atualmente a fábrica conta com 4 linhas de produção para colchões de espuma e 4 linhas
+de produção para os colchões de mola. A empresa contratou nos últimos anos uma consultoria
+em Produção Enxuta, que vem realizando melhorias nos processos e na cultura da empresa em
+si. A produção atual é baseada nos pedidos fornecidos pelo setor comercial (produção sob
+pedido) e ocasionalmente, em épocas com poucas vendas, completa-se a produção com
+produtos para estoque, baseado nos produtos que tem mais saída a fim de não deixar as linhas
+ociosas.
+Para cada produto, é realizada a cronoanálise para aferir o tempo de produção unitário,
+portanto, todos os produtos cadastrados no sistema devem possuir seus respectivos tempos de
+produção, e esses dados são utilizados pelo Planejamento e Controle da Produção (PCP) na
+elaboração das sequencias de produção (filas). O PCP possui os tempos disponíveis em cada
+linha, e quando os produtos são vendidos pelo comercial a produção é programada. Os lotes de
+produção são estratificados e separados de acordo com características como: densidade da
+espuma utilizada, assim a produção pode permanecer mais constante e evita o acontecimento
+de erros na etapa de montagem do colchão. Os lotes são dimensionados não por unidades do
+produto, e sim por tempo de produção. O tempo ideal para os lotes de acordo com o
+balanceamento de linha realizado é de 60 minutos, permitindo uma variação de 5 minutos para
+mais ou menos sem complicações para a cadeia de produção.
+O processo envolve desde a produção do bloco de espuma até a entrega ao cliente. O
+bloco de espuma é cortado ao meio originando dois tocos, os tocos são encaminhados para a
+laminação e cortado em lâminas da espessura desejada por um operador. As lâminas são
+separadas e preparadas para a produção de acordo com os respectivos lotes, o operador pega as
+Engenharia de Produção - UEM Página 16
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+matérias primas já na sequência correta para a montagem, facilitando o trabalho e evitando erros
+na montagem. O operador então monta o colchão realizando as colagens necessárias de acordo
+com o modelo, deixando o colchão estruturalmente completo, então passa a outro operador para
+realizar a costura da faixa de revestimento lateral, após a costura o produto é colocado na esteira,
+é inspecionado visualmente pelo operador, onde este realiza possíveis pequenos reparos no
+acabamento (corte da farpa de fio, limpeza). O produto, após inspecionado, é embalado e
+colocado no carrinho de transporte, quando o carrinho está carregado, os colchões são então
+levados ao centro de distribuição para montagem de carga ou estocagem.
+Na Figura a seguir está ilustrado o fluxograma do processo produtivo:
+Engenharia de Produção - UEM Página 17
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Figura 8 – Fluxograma
+Fonte: Autoria própria 2018
+Engenharia de Produção - UEM Página 18
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Como é possível observar no fluxograma, não existe um monitoramento da qualidade
+eficaz, para parâmetros importantes tanto para o cliente, quanto para as normas. Indagações de
+clientes em relação ao cumprimento das especificações, bem como a crescente concorrência no
+mercado e a excelência em qualidade faz com que a introdução ao Controle Estatístico da
+Qualidade nos processos seja benéfico para a empresa e ao consumidor. O esperado é que este
+estudo consiga incentivar uma abordagem estatística dos processos contínua, gerando análises
+referente a qualidade dos produtos confeccionados, e monitorar o cumprimento com as
+especificações. O estudo também possibilitará a detecção de divergências entre as
+especificações de engenharia que constam no sistema para com os produtos fabricados, sendo
+possível realizar correções nas árvores dos produtos, de redução nos componentes, o que
+acarretaria em uma redução nos custos de manufatura dos produtos.
+4.1 Situação atual
+Atualmente a empresa tem se adequado aos parâmetros avaliados, no setor de espumação
+são realizados os testes nas espumas, usando como base os critérios avaliados pelas NR’s e as
+metodologias utilizadas. Os parâmetros essenciais para os colchões de espuma como resiliência,
+deformação, força de indetação, fadiga e teor de cinzas todos são analisados pelo laboratório da
+fábrica seguindo as metodologias descritas nas suas respectivas normas, sendo os testes
+elaborados mensalmente. Este é o setor que fornece a matéria prima para todos os processos de
+montagem, e que por se tratar de um processo químico, é essencial que se tenha um controle de
+qualidade constante eficaz, entretanto quando se desenvolve um novo produto, não é realizado
+nenhum tipo de teste para monitorar se as características reais do colchão condizem com as
+especificadas pela engenharia. Isso faz com que existam casos de divergência entre as
+especificações presentes no sistema fornecidos pela engenharia para com as especificações reais
+do produto.
+A empresa possui certas famílias produtos que são certificadas, tanto pelo INER quanto
+pelo INMETRO. Com o crescimento das vendas internacionais, as exigências dos novos
+clientes estão cada vez maiores, indagações vindas de clientes fazem com que a empresa
+questione o real cumprimento com as especificações propostas tanto pelos clientes quanto pelos
+órgãos credores. A soma destes fatores gera uma necessidade de que a empresa realize um
+monitoramento de variáveis de interesse em seus produtos.
+Engenharia de Produção - UEM Página 19
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+4.2 Pontos do críticos do processo
+Todas as lâminas utilizadas nos colchões são cortadas no setor de corte de espuma, para
+depois serem distribuídas nas linhas de produção. O corte é realizado por um operador na
+máquina de corte sem conferência de qualidade nesta etapa, por se tratar de uma operação que
+depende de um manuseio correto do operador com a máquina, mostra-se interessante realizar
+um estudo neste ponto do processo. Portanto analisando o processo o setor de corte, ele produz
+um subproduto que faz parte e tem impacto nas características finais do colchão acabado. Outra
+característica que deve ser analisada é a altura final do produto, verificar se a variação está sob
+controle como proposto pela NBR 13579-1 e analisar as características atuais refletidas no
+produto, portanto após a etapa de montagem, quando se têm o produto acabado é um ponto de
+interesse, onde devem ser analisadas as dimensões finais dos produtos acabados.
+4.3 Variáveis a serem acompanhadas
+Por se tratar de um processo manual, a presença de metas para o ganho de prêmios, o fato
+de que os tempos de produção dos colchões alimenta o PCP, faz com que a coleta das variáveis
+de controle se não fizer parte do processo aumente o tempo de produção dos produtos, e assim
+o estudo acabaria prejudicando tanto o PCP, quanto os operadores, que teriam mais dificuldade
+cumprimento das metas. Visto que o projeto tem a intenção de padronizar um método de
+controle estatístico com baixo custo e sem impacto inicial no tempo de processo, optou-se por
+inicialmente acompanhar as variáveis de altura dos colchões e espessura das lâminas de espuma,
+consolidando a metodologia para uma posterior aplicação em outras partes de interesse nos
+processos produtivos.
+Dado a característica de produção da empresa, foram selecionados os modelos mais
+fabricados/vendidos mensalmente em 2018, com os registros históricos utilizou-se do gráfico
+de Pareto para determinar os modelos com maior impacto por linha. Os nomes dos modelos
+foram substituídos por um código composto de uma letra que representa a linha do produto (A,
+B, C, D ou E) e um número sequencial. As linhas fabricadas são: Basic, Prime, Plus e Premium
+para os colchões de mola e somente Basic para os de espuma. Os gráficos são ilustrados a
+seguir:
+Engenharia de Produção - UEM Página 20
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Figura 9 – Gráfico de Pareto Colchões de espuma
+Gráfico de Pareto Vendas Mensal - Basic Espuma
+100%
+7000
+90%
+6000 80%
+70%
+5000
+60%
+4000
+50%
+3000 40%
+30%
+2000
+12211055995 20%
+932
+1000 579 493 450 311 269 230 174 161 158 120 114 66 61 30 14 9 5 2 0 10%
+0 0%
+A1 A2 A3 A4 A5 A6 A7 A8 A9 A10A11A12A13A14A15A16A17A18A19A20A21A22A23
+Quantidade % Ac
+Fonte: Autoria própria 2018
+Nos modelos de espuma, tem-se a predominância dos colchões: A1, A2, A3.
+Figura 10 – Gráfico de Pareto Linha Basic
+Gráfico de Pareto Vendas Mensal - Mola Basic
+100%
+3000
+80%
+2500 2227
+2000 60%
+1500
+40%
+1000
+427 395 20%
+500
+81 70 68 50 19
+0 0%
+B1 B2 B3 B4 B5 B6 B7 B8
+Quantidade % Ac
+Fonte: Autoria própria 2018
+É possível visualizar que somente os modelos B1 e B2 já representam 80% da categoria.
+Engenharia de Produção - UEM Página 21
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Figura 11 – Gráfico de Pareto Linha Prime
+Gráfico de Pareto Vendas Mensal - Mola Prime
+100%
+90%
+2000
+80%
+70%
+1500
+60%
+50%
+1000
+40%
+672
+597
+30%
+500 293 20%
+106 94 94 92 92 71 65 42 30 13 12 7 6 5 4 3 10%
+0 0%
+C1 C2 C3 C4 C5 C6 C7 C8 C9 C10 C11 C12 C13 C14 C15 C16 C17 C18 C19
+Quantidade % Ac
+Fonte: Autoria própria 2018
+Na linha Prime tem-se, C1, C2 e C3 que representam 68% da linha.
+Figura 12 – Gráfico de Pareto Linha Plus
+Gráfico de Pareto Vendas Mensal - Mola Plus
+100%
+90%
+300
+80%
+250 70%
+200 60%
+50%
+150
+40%
+100 78 30%
+61 59
+46 20%
+50 33 29 24
+13 2 1 10%
+0 0%
+D1 D2 D3 D4 D5 D6 D7 D8 D9 D10
+Quantidade % Ac
+Fonte: Autoria própria 2018
+Na linha Plus, os três modelos que se destacam são, D1, D2 e D3 compondo 57% do
+total.
+Engenharia de Produção - UEM Página 22
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Figura 13 – Gráfico de Pareto Linha Premium
+Gráfico de Pareto Vendas Mensal - Mola Premium
+100%
+180
+90%
+160
+80%
+140
+70%
+120
+60%
+100
+50%
+80 68 40%
+60 30%
+33
+40 26 24 20%
+16
+20 10 6 6 10%
+0 0%
+E1 E2 E3 E4 E5 E6 E7 E8
+Quantidade % Ac
+Fonte: Autoria própria 2018
+Os colchões com maior saída da linha Premium são os modelos: E1, E2 e E3, juntos
+representam 67% das vendas da linha.
+Figura 14 – Gráfico de Pareto Colchões de espuma
+Gráfico de Pareto Vendas Mensal - Todas as linhas
+14000 100%
+12000
+80%
+10000
+7951
+60%
+8000
+6000 40%
+3428
+4000 2276
+20%
+2000 363 269
+0 0%
+COLCHAO COLCHAO MOLA COLCHAO MOLA COLCHAO MOLA COLCHAO MOLA
+ESPUMA BASIC BASIC PRIME PLUS PREMIUM
+Quantidade % Ac
+Fonte: Autoria própria 2018
+Através da análise dos gráficos acima selecionou-se os modelos mais vendidos por cada
+linha para que o projeto tenha uma quantidade aceitável de dados e foque nos produtos
+preferidos pelos clientes. O maior volume de vendas é disparado a linha Basic, por ser mais
+acessível a qualquer cliente, porém mesmo o gráfico apontando que a linha representa 56% dos
+produtos vendidos, o estudo não pode se limitar apenas a essa família de produtos, visto que é
+de interesse da diretoria uma análise das famílias de produtos além de também serem produtos
+certificados. Contudo realizou-se um Pareto para cada uma das linhas, a fim de determinar pelo
+Engenharia de Produção - UEM Página 23
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+menos um modelo de colchão para ser monitorado por linha, os gráficos foram importantes para
+assegurar que os modelos escolhidos teriam saída. Feita a análise determinou-se os modelos a
+serem alvo do estudo inicial, representados no Quadro a seguir:
+Quadro 1 – Modelos alvo de estudo
+Tipo Linha Modelos
+Basic A1
+Basic A2
+Espuma
+Basic A3
+Basic A8
+Basic B1
+Basic B2
+Mola Prime C1
+Plus D1
+Premium E1
+Fonte: Autoria própria 2018
+A característica a ser avaliada é a altura, que se enquadra como dados do tipo variável.
+Calculou-se um plano amostral apenas para se ter uma estimativa baseada em um registro
+histórico. Para cada modelo de colchão selecionado, foi calculado o tamanho da amostra
+necessário pela equação 19 utilizando um nível de confiança de 80% e uma margem de erro de
+5%. No Quadro 2 segue ilustrado as quantidades obtidas para cada modelo.
+Quadro 2 – Plano amostral
+Modelos Amostras Subgrupo
+A1 152 5
+A2 154 5
+A3 148 5
+A8 132 5
+B1 158 5
+B2 140 5
+C1 143 5
+D1 82 1
+E1 84 5
+Total 1334 -
+Fonte: Autoria própria 2018
+Na parte do controle da espessura das espumas, selecionou-se algumas lâminas
+consideradas críticas pela Norma, ou seja, na qual deve possuir uma espessura não inferior a
+especificação. Optou-se por realizar a coleta das alturas na etapa anterior a expedição do
+produto, e para a coleta das espessuras das lâminas, logo após a laminação, quando estas
+esperam para prosseguir no processo de montagem, os locais escolhidos para a coleta foram
+Engenharia de Produção - UEM Página 24
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+selecionados a fim de se minimizar o impacto do estudo sobre o processo produtivo nesta fase
+inicial do projeto.
+4.4 Proposta da forma de controle
+A metodologia pode ser utilizada para a abordagem das características que forem de
+interesse para análise, seguindo o modelo genérico proposto.
+Optou-se por realizar a coleta das alturas na etapa anterior a expedição do produto, e
+para a coleta das espessuras das lâminas, logo após a laminação, quando estas esperam para
+prosseguir no processo de montagem, os locais escolhidos para a coleta foram selecionados a
+fim de se minimizar o impacto do estudo sobre o processo produtivo nesta fase inicial do
+projeto.
+Com esses dados, foram calculadas as unidades médias necessárias a serem coletadas
+diariamente para cada modelo. Optou-se pelo uso do subgrupo racional de 5 para maioria dos
+modelos, exceto para aqueles com baixa demanda, que optou-se pelo uso de valores individuais.
+Para esta etapa, elaborou-se uma folha de coleta de dados a ser usado como modelo para a
+empresa, disposta a seguir:
+Quadro 3 – Folha de coleta de dados
+ALTURAS
+DATA XX/XX/XX
+COLCHÕES
+Código Descrição 1 2 3 4 5 6 7 8 9 10
+Fonte: Autoria própria 2018
+A folha de verificação foi elaborada de forma a facilitar o manuseio dos dados, nela
+consta o código, a descrição dos produtos e os espaços para anotar as aferições.
+Engenharia de Produção - UEM Página 25
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+O método de coleta de dados foi desenvolvido exclusivamente para o projeto, com o uso
+de uma régua metálica milimétrica e o auxílio de uma régua de alumínio sem escala para coleta
+das alturas dos colchões, para as espessuras das lâminas utilizou-se uma trena. Os métodos para
+as aferições foram realizados conhecendo os métodos utilizados pelos órgãos credores nas
+avaliações, mas seguir a metodologia idêntica não seria viável, portanto cabe a empresa
+desenvolver a melhor metodologia de monitoramento que seja possível, com os recursos
+dispostos. A figura a seguir ilustra o equipamento e método utilizado.
+Figura 15 – Equipamento de coleta
+Fonte: Autoria própria 2018
+De forma a facilitar e padronizar os métodos, elaborou-se o fluxograma da metodologia,
+para permitir a reprodução do estudo para áreas de interesse da empresa, e possibilita um
+treinamento padronizado e prático para o operador. A abordagem está ilustrada a seguir:
+Engenharia de Produção - UEM Página 26
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Figura 16 – Fluxograma método
+Fonte: Autoria própria 2018
+5. Resultados e análise
+Ao final da etapa de coleta de dados, obtiveram-se a quantidade de dados desejados, e
+montou-se um relatório com as análises de cada modelo de colchão estudado. A abordagem
+consiste em analisar as cartas a fim de verificar a estabilidade do processo, se o processo for
+estável e os dados forem normais realiza-se um estudo, plotando o histograma de capacidade
+calculando os índices de capacidade, o percentual de defeituosos e os Defeitos Por Milhão de
+Oportunidades (DPMO), se as cartas apontarem instabilidade, analisa-se analogamente a
+capacidade, a performance. No caso de dados não normais podem ser realizadas diversas
+alternativas para o cálculo dos índices, neste projeto optou-se pela transformação de Johnson
+para dados normais. Através dos índices analisa-se o comportamento do processo e
+características inerentes ao mesmo, o estudo proporciona possíveis ações de melhorias sobre
+causas comuns que influenciam na variabilidade.
+Engenharia de Produção - UEM Página 27
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Os gráficos foram elaborados utilizando o software Minitab 2017, foram escolhidos três
+testes para causas especiais, sendo eles:
+ Um ponto a mais do que 3σ da linha central;
+ Nove pontos em uma linha no mesmo lado da linha central;
+ Quinze pontos em uma linha dentro de 1σ da linha central (qualquer dos lados).
+Quanto mais testes forem realizados, maior a sensibilidade das cartas mas também está
+mais sujeita a alarmes falsos. Portanto cada caso deve ser estudado considerando o tipo de
+indústria/processo e o conhecimento que se tem sobre. Dependendo do tipo de indústria pode
+existir a necessidade de cartas mais sensíveis. O software o histograma de
+capacidade/performance, os índices de capacidade/performance, percentual fora de
+especificação e defeito por milhão de oportunidades (DPMO).
+Para dois casos foi necessário o uso de transformação de dados para obtenção de uma
+distribuição normal, a figura a seguir apresenta o teste de normalidade para os dados originais
+e ao lado os dados após a transformação de Johnson.
+Figura 17 – Comparativo antes e pós transformação de Johnson
+Fonte: Autoria própria 2018
+Como ilustrado acima, a transformação permite uma adequação aos dados, para aplicar
+ferramentas que assumem normalidade. A obtenção de um p-valor maior que 0,05 significa a
+rejeição da hipótese de não normalidade.
+5.1 Modelo A1
+Cartas X e R para o modelo A1
+Engenharia de Produção - UEM Página 28
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Gráfico 1 – Carta X e R Modelo A1
+Fonte: Autoria própria 2018
+Interpretando os gráficos, observa-se que o gráfico de média aponta um processo fora
+de controle, os limites de controle ambos se encontram maior que o limite inferior de
+especificação.
+Prosseguindo para análise de performance do processo:
+Gráfico 2 – Histograma de capacidade Modelo A1
+Fonte: Autoria própria 2018
+Engenharia de Produção - UEM Página 29
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Tabela 2 – Estatísticas de capacidade Modelo A1
+Índices Valores
+N 150
+n 5
+Pp 0,87
+Ppk 0,79
+Z.Bench 2,28
+% Fora de
+1,13
+espec.
+PPM 11340
+Fonte: Autoria própria 2018
+O processo se mostra incapaz e com um deslocamento da média próximo ao LSE de
+acordo com os índices e os gráficos, mostra-se interessante uma análise de alinhamento das
+especificações de engenharia do produto. Foram entregues 1,13% de itens fora de especificação,
+quantificado em 11.340 peças por milhão.
+5.2 Modelo A2
+Cartas X e R para o modelo A2
+Gráfico 3 – Carta X e R Modelo A2
+Fonte: Autoria própria 2018
+Engenharia de Produção - UEM Página 30
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Gráfico 4 – Histograma de capacidade Modelo A2
+Fonte: Autoria própria 2018
+Tabela 3 – Estatísticas de capacidade Modelo A2
+Índices Valores
+N 150
+n 5
+Cp 1,17
+Cpk 0,86
+Z.Bench 2,57
+% Fora de
+0,5
+espec.
+PPM 5044
+Fonte: Autoria própria 2018
+Os índices e o histograma, mostram a consistência e o comportamento do processo
+analisado, os índices apontam um processo incapaz no atendimento das especificações.
+Cp é maior que 1 enquanto que Cpk é menor, o que indica que a média não se encontra centrada,
+o que caracteriza o processo como incapaz, o processo entregou 0,5% de produtos fora de
+especificação, quantificado em 5044 peças por milhão. Por mais que a média se encontre
+levemente deslocada, é um processo consistente e previsível.
+5.3 Modelo A3
+Gráfico de X e R para o modelo A3
+Engenharia de Produção - UEM Página 31
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Gráfico 5 – Carta X e R Modelo A3
+Fonte: Autoria própria 2018
+O gráfico do modelo A3 aponta instabilidade no gráfico de amplitude e média, os pontos
+fora dos limites mostram a falta de consistência durante o processo, não existe qualidade
+assegurada em nenhuma etapa dos processos envolvidos em sua fabricação, o que gera margem
+para variações não previsíveis.
+Prosseguindo para a análise de performance:
+Gráfico 6 – Histograma de capacidade Modelo A3
+Fonte: Autoria própria 2018
+Engenharia de Produção - UEM Página 32
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Tabela 4 – Estatísticas de performance Modelo A3
+Índices Valores
+N 145
+n 5
+Pp 0,89
+Ppk 0,46
+Z.Bench 1,39
+% Fora de
+8,28
+espec.
+PPM 82793
+Fonte: Autoria própria 2018
+O processo enquadra-se como incapaz, ambos os índices são menores que 1, são entregue
+produtos majoritariamente abaixo do limite inferior de especificação. O processo entrega 8,28%
+de produtos fora de especificação, quantificado em 82.793 peças por milhão.
+5.4 Modelo A8
+As cartas utilizadas para o modelo A8 foram de média e amplitude:
+Gráfico 7 – Carta X e R Modelo A8
+Fonte: Autoria própria 2018
+Os gráficos indicam que o processo encontra-se estável, ambos os limites de controle
+estão acima da média nominal do produto, o que indica um deslocamento da média próximo ao
+limite superior de controle. Seguindo para a análise de capacidade tem-se:
+Engenharia de Produção - UEM Página 33
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Gráfico 8 – Histograma de capacidade Modelo A8
+Fonte: Autoria própria 2018
+Tabela 5 – Estatísticas de capacidade Modelo A8
+Índices Valores
+N 130
+n 5
+Cp 1,20
+Cpk 0,83
+Z.Bench 2,49
+% Fora de
+0,63
+espec.
+PPM 6331
+Fonte: Autoria própria 2018
+Analisando o modelo A8 observa-se claramente um deslocamento da média próximo ao
+limite superior de especificação, o valor do índice Cpk confirma o deslocamento e mostra que
+o processo é considerado como incapaz, entregando produtos que passam da especificação
+superior, o que viabiliza um estudo de alinhamento das especificações nominais do produto
+com as reais observadas no processo. O percentual de produtos fora de especificação observado
+foi de 0,63% quantificado em 6.331 peças por milhão.
+5.5 Modelo B1
+Cartas de média e amplitude para análise do modelo B1
+Engenharia de Produção - UEM Página 34
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Gráfico 9 – Carta X e R Colchão B1
+Fonte: Autoria própria 2018
+Ambos os gráficos apontam estabilidade no processo. Portanto é possível a realização
+de uma análise de capacidade para o modelo para verificar o atendimento das especificações.
+Neste caso fez-se o uso da transformação de Johnson para dados normais.
+Gráfico 10 – Histograma de capacidade Modelo B1
+Fonte: Autoria própria 2018
+Engenharia de Produção - UEM Página 35
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Tabela 6 – Estatísticas de capacidade Modelo B1
+Índices Valores
+Cp 0,68
+Cpk 0,61
+Z.Bench 1,68
+% Fora de
+4,66
+espec.
+PPM 46623
+Fonte: Autoria própria 2018
+Cp e Cpk são menores que 1, o que caracteriza o processo como incapaz, analisando-se
+o histograma, também podemos observar que são entregues 4,66% dos produtos fora dos limites
+de especificação, quantificado em 46623 PPM.
+5.6 Modelo B2
+Cartas de média e amplitude para o modelo B2
+Gráfico 11 – Carta X e R Colchão B2
+Fonte: Autoria própria 2018
+Neste caso, foi necessário o uso da transformação de Johnson para dados normais, a fim
+de prosseguir para a análise de capacidade.
+Engenharia de Produção - UEM Página 36
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Gráfico 12 – Histograma de capacidade Modelo B2
+Fonte: Autoria própria 2018
+Tabela 7 – Estatísticas de capacidade Modelo B2
+Índices Valores
+N 170
+n 5
+Cp 0,59
+Cpk 0,35
+Z.Bench 1,03
+% Fora de
+15,21
+espec.
+PPM 152134
+Fonte: Autoria própria 2018
+O processo enquadra-se como incapaz, o histograma mostra um deslocamento da média
+próximo ao limite superior de especificação, entregues 15,21% de itens fora de especificação
+quantificados em 152.134 peças por milhão.
+5.7 Modelo C1
+Cartas X e R para o modelo C1
+Engenharia de Produção - UEM Página 37
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Gráfico 13 – Carta X e R Modelo C1
+Fonte: Autoria própria 2018
+Neste caso, ambas as cartas apontam estabilidade do processo usando os testes
+estabelecidos. Prosseguindo para a análise de capabilidade tem-se:
+Gráfico 14 – Histograma de capacidade Modelo C1
+Fonte: Autoria própria 2018
+Engenharia de Produção - UEM Página 38
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Tabela 8 – Estatísticas de capacidade Modelo C1
+Índices Valores
+N 140
+n 5
+Cp 0,67
+Cpk 0,46
+Z.Bench 1,35
+% Fora de
+8,86
+espec.
+PPM 88637
+Fonte: Autoria própria 2018
+Os índices Cp e Cpk são menores que 1, o que caracteriza o processo como incapaz,
+analisando-se o histograma, também podemos observar que são entregues cerca de 8,86% dos
+produtos fora dos limites de especificação, quantificado em 46623 PPM. O modelo C1
+apresenta produtos que extrapolam tanto o limite superior de controle quanto o limite inferior
+de controle, indicando que o processo necessita de maior padronização e controle em
+determinadas etapas.
+5.8 Modelo D1
+Para o modelo D1, optou-se pelo uso da Carta I – AM visto que não seria garantido a
+formação de subgrupos, então mostrou-se mais vantajoso a coleta de valores individuais.
+Gráfico 15 – Carta I-AM Colchão D1
+Engenharia de Produção - UEM Página 39
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Fonte: Autoria própria 2018
+Analisando o gráfico acima, é possível observar que existe um ponto fora do limite
+superior de controle para ambas as cartas, caracterizando como um processo instável, para a
+análise de performance tem-se:
+Gráfico 16 – Histograma de capacidade Modelo D1
+Fonte: Autoria própria 2018
+Tabela 9 – Estatísticas de performance Modelo D1
+Índices Valores
+N 69
+n 1
+Pp 0,78
+Ppk 0,48
+Z.Bench 1,42
+% Fora de
+7,71
+espec.
+PPM 77085
+Fonte: Autoria própria 2018
+Os índices menores que 1 apontam o processo como incapaz, observa-se pelo gráfico um
+leve deslocamento da média próximo ao limite inferior de especificação, e em geral os produtos
+fora de especificação extrapolam apenas o limite inferior. No período analisado o processo
+entregou 7,71% de itens fora de especificação, quantificado em 77.085 peças por milhão.
+5.9 Modelo E1
+Cartas X e R para o modelo E1
+Engenharia de Produção - UEM Página 40
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Gráfico 17 – Carta X e R Modelo E1
+Fonte: Autoria própria 2018
+Os gráficos apontam estabilidade do processo, portanto é possível analisar a
+capabilidade do processo verificando o atendimento aos requisitos normativos e seu
+desempenho.
+Gráfico 18 – Histograma de capacidade Modelo E1
+Fonte: Autoria própria 2018
+Engenharia de Produção - UEM Página 41
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Tabela 10 – Estatísticas de capacidade Modelo E1
+Índices Valores
+N 85
+n 5
+Cp 0,47
+Cpk 0,41
+Z.Bench 0,97
+% Fora de
+16,61
+espec.
+PPM 166137
+Fonte: Autoria própria 2018
+Os índices indicam um processo incapaz, entregando um percentual alto de produtos fora
+de ambos os limites de especificação. Atualmente são entregue 16,61% de produtos fora de
+especificação, que são quantificados em 166.137 peças por milhão. Analisando o processo, não
+possui qualidade assegurada nas etapas predecessoras, podendo justificar a falta de padrão na
+produção e os índices baixos.
+5.10 Lâmina de espuma
+A lâmina escolhida para acompanhamento foi de densidade 20 (D20), as cartas foram de
+amplitude móvel, visto que não era viável a coleta em subgrupos.
+Carta I-AM para lâminas D20
+Gráfico 19 – Carta I-AM Lâminas D20
+Carta I-AM
+LSC=12,734
+12,5
+lau
+ivdd12,0 X_=11,955
+i
+n
+IrolaV
+11,5
+LIC=11,176
+11,0 1
+1 11 21 31 41 51 61 71 81 91
+Observação
+1,00 1 1
+LSC=0,957
+le0,75vóM
+ed0,50u
+litpm0,25 A__M=0,293
+A
+0,00 LIC=0
+1 11 21 31 41 51 61 71 81 91
+Observação
+Fonte: Autoria própria 2018
+Engenharia de Produção - UEM Página 42
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+As cartas apontam instabilidade no processo. Existem pontos foram do limite superior
+de controle em ambas as cartas, prosseguindo para análise de performance:
+Gráfico 20 – Histograma de performance Espuma D20
+Fonte: Autoria própria 2018
+Tabela 11 – Estatísticas de performance lâmina de espuma D20
+Índices Valores
+N 100
+n 1
+Pp 0,65
+Ppk 0,59
+Z.Bench 1,59
+% Fora de
+5,62
+espec.
+PPM 56186
+Fonte: Autoria própria 2018
+Ambos os índices menores que 1 apontam o processo como sendo incapaz. A média está
+centrada, porém são entregues lâminas tanto abaixo quanto acima dos limites de especificação.
+O processo de laminação entregou 5,62% de itens fora de especificação, quantificado em 56.186
+peças por milhão.
+6. Propostas de melhoria
+Com as análises realizadas, reuniu-se a equipe do projeto e operadores dos setores
+envolvidos realizou-se um Brainstorming, para a elaboração dos gráficos de Ishikawa a seguir:
+Engenharia de Produção - UEM Página 43
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Gráfico 21 – Gráfico de Ishikawa mola
+Ishikawa Alturas Mola
+Measurements Material Personnel
+Equipamento Espuma Falta de treinamento
+inadequado
+Equipamento Tecido Má execução da
+descalibrado montagem
+Estratificar coleta Molejo Má execução do corte
+de dados por
+Alturas fora
+de
+especificação
+Falta de padrão no
+Desorganização na
+corte de bordas
+distribuição
+Divergência nas
+Falta de espaço especificações de Máquinas de corte
+(Empilhamento) Tampos divergentes
+Temperatura
+Pressão na costura
+Environment Methods Machines
+Fonte: Autoria própria 2018
+Gráfico 22 – Gráfico de Ishikawa espuma
+Ishikawa Alturas - Espuma
+Measurements Material Personnel
+Equipamento Espuma
+inadequado Falta de treinamento
+Equipamento Tecido
+descalibrado
+Má execução do corte
+Estratificar dados por Molejo
+setor/máquina
+Alturas fora
+de
+especificação
+Desorganização na Divergência nas
+distribuição especificações de
+engenharia
+Falta de espaço Tampos divergentes Máquinas de corte
+(Empilhamento)
+Temperatura Pressão na costura
+Environment Methods Machines
+Fonte: Autoria própria 2018
+Engenharia de Produção - UEM Página 44
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+A reunião com os operadores possibilitou um afunilamento nas causas, visto que
+possuem familiaridade com os principais problemas enfrentados na rotina de trabalho dos seus
+respectivos setores. As melhorias em sua maioria afetam todos os produtos estudados, visto que
+eles compartilham etapas no processo.
+A partir dos resultados discutidos, elaborou-se uma matriz 5W2H para detalhar as
+melhorias propostas com base no estudo ilustrada a seguir:
+Quadro 4 – Matriz 5W2H
+What Why Where When Who How How much
+Solicitar
+calibragem
+das lâminas
+Assegurar a precisão de corte e
+da máquina, criar rotina
+Calibragem das
+garantindo que as Setor de Gerente de para tal
+máquinas de 7 dias R$100,00
+espumas cortadas não Corte manutenção procedimento,
+corte
+sofram influência do de forma a se
+maquinário tornar parte da
+manutenção
+preventiva da
+empresa.
+A escala utilizada é
+Substituição da antiga e apresenta Solicitar nova
+escala utilizada desgaste nas Setor de Gerente de régua de
+10 dias R$50,00
+na máquina de marcações, podendo Corte manutenção escala para
+corte acarretar em erros nos máquina
+cortes
+Alinhamento/S Substituir ou
+Máquina com
+ubstituição de Gerente de alinhas a peça
+desalinhamento causa Setor de R$
+peças na 10 dias Manutençã de suporte a
+variações de espessura Corte 50,00
+máquina de o escala do
+nas bordas
+corte corte
+Medir com a
+trena a
+Os tampos são
+Conferência da espessura do
+compostos pela
+qualidade na começo do
+espuma, tecido e fibra. Setor de Operadores R$
+espuma Imediato rolo
+O componente que tampos do setor -
+cilíndrica usada cilíndrico,
+mais impacta na altura
+nos tampos antes de
+final é a espuma.
+inserir na
+máquina
+Atualmente nada
+Deve ser
+Conferência e assegura as dimensões
+realizado um
+padronização das bordas utilizadas
+planejamento
+no método nos colchões, sendo Setor de Gerente de R$
+20 dias de corte para
+usado para este um componente Corte processos -
+os blocos
+corte de bordas estrutural presente em
+destinados a
+de espuma todos os colchões de
+bordas.
+mola.
+Engenharia de Produção - UEM Página 45
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Mudar a
+As análises apontam
+árvore do
+um deslocamento da
+produto no
+média próximo ao
+sistema,
+Reduzir lâmina LSC. A medida
+alterando a
+de espuma alinhará a Setor Gerente de R$
+2 dias espessura da
+usados no especificação nominal Industrial processos -
+lâmina e se
+modelo A1 com a real, além de
+necessário
+acarretar em uma
+alterar altura
+redução imediata de
+que consta na
+custos no produto.
+etiqueta.
+Mudar a
+As análises apontam
+árvore do
+um deslocamento da
+produto no
+média próximo ao
+sistema,
+Reduzir lâmina LSC. A medida
+alterando a
+de espuma alinhará a Setor Gerente de R$
+2 dias espessura da
+usados no especificação nominal Industrial processos -
+lâmina e se
+modelo A8 com a real, além de
+necessário
+acarretar em uma
+alterar altura
+redução imediata de
+que consta na
+custos no produto.
+etiqueta.
+Atualmente os
+funcionários priorizam
+o cumprimento das
+Conscientizaçã
+metas sobre a
+o dos Reuniões por
+qualidade. Mostra-se
+colaboradores setores,
+importante mudar a Todos os
+da importância Gerente de distribuição R$
+visão dos setores da 7 dias
+de assegurar a RH de folhetos -
+colaboradores e produção
+qualidade nas educativos,
+conscientiza-los sobre
+etapas dos jornais e etc.
+a importância de
+processos
+assegurar a qualidade
+nas etapas dos
+processos.
+Operador
+Costureiros reclamam
+Conferência e conferir se os
+da falta de padrão nas
+padronização tecidos
+faixas fornecidas pelo
+no método Setor de Gerente de cortados para R$
+setor. Faixas muito 15 dias
+usado para a Faixas processos fabricação das -
+abaixo das alturas
+manufatura das faixas está
+impactam no produto
+faixas dentro das
+final.
+tolerâncias
+Acompanhar
+os operadores,
+Levantamento Não existe registro registrar as
+dos sobre as funções de Todos os funções
+Gerente da R$
+Procedimentos cargos da produção, o setores da 45 dias exercidas no
+Qualidade -
+Operacionais que dificulta produção postos de
+Padrão treinamentos trabalho,
+melhora-las e
+documenta-las
+Fonte: Autoria própria 2018
+Portanto, com as análises feitas, os planos de ações foram elaborados para causas
+especiais e comuns identificadas nos processos. As causas especiais são mais facilmente
+Engenharia de Produção - UEM Página 46
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+eliminadas do processo, visto que não é um padrão de comportamento, já as causas comuns
+demandam uma análise mais detalhada das etapas da cadeia produtiva, rever os métodos de
+trabalho utilizados, identificar a origem dos desvios inerentes ao processo e em alguns casos
+propor novo método/abordagem no setor. Algumas ações podem ser avaliadas já de início,
+como os casos de mudança na especificação dos produtos, onde a economia é imediata. Outras
+necessitam de um acompanhamento após as execução para verificar os resultados.
+Outro ponto importante que o projeto trouxe é a importância de se dar autonomia ao
+operador, de forma a possibilitar que ele identifique erros no processo, informe ao líder ou ainda
+corrija em casos simples. Deu-se como sugestão a inclusão da calibragem da máquina de corte
+como rotina de manutenção preventiva da empresa.
+A economia anual em matéria-prima foi estimada em dois cenários possíveis com base
+na demanda histórica, com redução de 1 centímetro e 0,5 centímetros como na tabela a seguir:
+Tabela 11 – Economia anual estimada
+Colchão Redução 0,5 cm Redução 1,0 cm
+Modelo C R$ 15.467,30 R$ 30.934,60
+Modelo C7 R$ 6.995,84 R$ 13.991,68
+Total R$ 22.463,14 R$ 44.926,28
+Fonte: Autoria própria 2018
+As estimativas de economia foram passadas a diretoria para avaliação, posteriormente o
+próximo passo é fabricar os primeiros lotes de produtos alterados e monitora-los.
+Os modelos compartilham etapas, são processos semelhantes com diferenças nos
+componentes estruturais, porém não se assegura a qualidade por etapa e nem existe conferência
+no produto final. As medidas propostas visam minimizar e controlar a variabilidade nos setores
+predecessores a montagem, de modo que os produtos que forem separados para montagem já
+estejam com as medidas asseguradas. Componentes como lâmina de espuma, tampo, bordas de
+espuma, molejo devem ter suas características asseguradas previamente a montagem, de modo
+a restringir as causas de variação a determinada etapa do processo. O setor de corte de bordas,
+apresentou uma série de inconformidades no maquinário e algumas referente ao método, a
+borda é um componente crítico nas dimensões dos colchões, e um plano de ação intenso foi
+elaborado focado no setor.
+Para que todas as medidas sejam implantadas, é essencial o apoio de todos os gestores
+responsáveis em cada ação, gerente de produção, gerente de manutenção, gerente de processos,
+gerente de qualidade, pois as ações de melhoria englobam e dependem dos mesmos.
+Engenharia de Produção - UEM Página 47
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+7. Considerações finais
+O trabalho foi desenvolvido com a intenção de identificar o comportamento atual dos
+processos de fabricação dos colchões, identificar problemas nas etapas predecessoras, e propor
+melhorias que englobem todos os setores da cadeia produtiva. A demanda surgiu inicialmente
+a partir de questionamentos vindos de clientes referente às características dimensionais dos
+produtos aliado ao fato de existirem produtos certificados por órgãos credores como INMETRO
+e INER sujeitos a auditoria.
+O estudo possibilitou introduzir os conceitos de controle estatístico do processo para a
+empresa, quantificando o cumprimento das especificações de seus produtos e verificando a
+consistência na fabricação. Os resultados obtidos foram além da expectativa e proporcionaram
+um conhecimento estatístico de seus processos, viabilizou a elaboração de planos de ação nos
+setores visando minimizar a variabilidade observada e controlar-se a mesma. No que tange aos
+produtos atuais, devem ser conferidas algumas estruturas de produtos, ao se desenvolver novos
+produtos, por vezes faz-se uso de itens de outros modelos como tampos e bordas, as alturas são
+consideradas as mesmas, mas muitas das medidas foram tiradas de um número pequeno de
+protótipos. Portanto é provável que no sistema existam itens que estejam considerando uma
+altura divergente da real entregue pelo processo, esses casos devem ser corrigidos para uma
+maior confiabilidade nas especificações cadastradas no sistema. No setor responsável pelas
+bordas falta procedimentos de padronização, como um bloco de espuma planejado para as
+dimensões das bordas facilitando para o operador, a máquina com manutenções em dia e melhor
+gestão visual. O maior desafio observado é a cultura atual presente na empresa, que está voltada
+para as metas dos setores acima da qualidade dos produtos, o que resulta em inputs defeituosos,
+que acabam passando à frente na espera de que não seja identificado. Somado a isso, não existe
+um registro dos procedimentos operacionais padrão (POP) para delimitar quais e como devem
+ser executadas as funções em cada setor, no decorrer do projeto o levantamento desses
+procedimentos estava em andamento, tal documento é de extrema importância para
+padronização dos treinamentos para colaboradores novos. A conscientização dos operadores
+leva tempo e dedicação por parte da empresa, mas é essencial para assegurar a qualidade nos
+processos.
+O projeto conseguiu mostrar para a empresa o quanto pode ser benéfico o uso do controle
+estatístico da qualidade, com baixos custos e uma equipe capacitada, a reprodução do estudo se
+tornou possível para qualquer área de interesse na cadeia produtiva.
+Engenharia de Produção - UEM Página 48
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+Sugere-se a empresa o acompanhamento do processo pós melhorias, a fim de comparar os
+resultados obtidos. Mostra-se interessante uma expansão do estudo em outros setores, para de
+forma contínua reduzir as variabilidades do processo, de forma a garantir o atendimento dos
+requisitos do cliente e conhecer melhor as características dos processos de manufatura.
+Referências
+AGUIAR, Silvio. Ferramentas da qualidade: Integração das ferramentas da qualidade ao PDCA e ao programa
+seis sigma. Belo Horizonte: 2002. 229 p.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 13579-1: Colchão e colchonete de espuma
+flexível de poliuretano e bases Parte 1: Requisitos e métodos de ensaio. Rio de Janeiro, 2011.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 15413-1: Colchão de mola e bases Parte 1:
+Requisitos e métodos de ensaio. Rio de Janeiro, 2013.
+COCHRAN, W. G. Sampling Techniques. 3rd. ed. Nova York: John Wiley, 1977.
+COSTA, Antonio Fernando Branco; EPPRECHT, Eugênio Kahn; CARPINETTI, Luiz César Ribeiro. Controle
+estatístico de qualidade. São Paulo: Atlas, 2004. 334 p.
+HERMAN, J. T. Capability index – enough for process industries? Annual Quality Congress, Toronto, vol. 43,
+n. 0, p. 670-675, 1989.
+HRADESKY, John L. Aperfeiçoamento da qualidade e da produtividade: guia prático para a implementação
+do controle estatístico de processos-CEP. São Paulo, McGraw-hill, 1989. 301 p.
+INSTITUTO NACIONAL DE ESTUDOS DO REPOUSO. Norma Técnica para colchões de espuma flexível
+de poliuretano. São Paulo, 2017.
+INSTITUTO NACIONAL DE ESTUDOS DO REPOUSO. Norma Técnica para colchões de molas. São Paulo,
+2017.
+JACOBS, W.; ZANINI, R. R. A utilização do controle estatístico de qualidade como ferramenta de suporte à
+gestão dos desperdícios de alimentos em uma unidade de alimentação e nutrição. Revista Espacios. Vol. 34 (11)
+2013. Pág. 6. Disponível em: < http://www.revistaespacios.com/a13v34n11/13341106.html>. Acesso em: 2 mai.
+2018.
+JURAN, J. M. Quality Control handbook, New York, Mc Graw-Hill, 1974.
+KANE, V. E. Process capability índices, Journal of Quality Technology, Milwaukee, vol. 18, n. 1, p. 41-52,
+1986.
+MONTGOMERY, D. C. Introdução ao Controle Estatístico da Qualidade. 4. ed. Rio de Janeiro: LTC, 2004.
+513 p.
+MONTGOMERY, D. C. Introduction to Statistical Quality Control. John Wiley & Sons. New York, 1985.
+PALADINI, E. P. Gestão da qualidade: teoria e pratica. 2. ed. São Paulo: Atlas, 2004.
+PORTAL ACTION. Diagrama de Pareto. Disponível em: <http://www.portalaction.com.br/estatistica-basica/15-
+diagrama-de-pareto>. Acesso em: 5 mar. 2018.
+Engenharia de Produção - UEM Página 49
+
+NEW PAGE
+
+Universidade Estadual de Maringá - UEM Departamento de Engenharia de Produção
+Campus Sede - Paraná - Brasil
+Trabalho de Conclusão de Curso – Ano 2018
+RIBEIRO, J. L.; CATEN, C. T. Controle Estatístico do Processo. Apostila do Curso de Pós-Graduação em
+Engenharia de Produção. Porto Alegre: Editora da UFRGS, 1998.
+SLIFKER, J. F.; SHAPIRO, S. S. The Johnson system: Selection and parameter estimation. Technometrics, p.
+239-246. 1980.
+SOMERVILLE, S. E.; MONTGOMERY, D. C. Process Capability indices and nonnormal ditribution. Quality
+Engineering, 9:2, 305-316, 1996.
+WERKEMA, Maria Cristina Catarino. Serie ferramentas da qualidade: Ferramentas estatísticas básicas para o
+gerenciamento de processos. Belo Horizonte: Fundação Christiano Ottoni, Escola de Engenharia, 1995. 290 p.
+WISE, S. A., FAIR D. C. Innovative Control Charting. Pratical SPC Solutions For Today’s Manufacturing
+Environment. ASQ Quality Press. Milwaukee, Wisconsin, 1998.
+Engenharia de Produção - UEM Página 50
+
+NEW PAGE
