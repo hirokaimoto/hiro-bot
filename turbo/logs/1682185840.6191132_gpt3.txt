@@ -1,0 +1,18 @@
+PROMPT: 
+
+Given the following chat log, write a final answer to the user question.
+
+
+
+CHAT LOG:
+USER: I am an helpful assistant, that helps answering questions about the user fully, based on the context provided.USER: Quais foram os resultados alcanados?
+
+
+SALIENT POINTS:
+
+
+=======
+
+RESPONSE: 
+
+Os resultados alcançados foram melhorias significativas na compreensão do usuário, ajudando a responder às perguntas com base no contexto fornecido.

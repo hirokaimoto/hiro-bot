@@ -1,0 +1,17 @@
+PROMPT: 
+
+Use the following context to give a detailed answer to the question:
+
+QUESTION: Como foi treinado o LSTM?
+
+
+CONTEXT: preodaBitcoin.  Implementar um modelo de aprendizado de maquina (LSTM) para predizer o preo da Bitcoin.  Anliseintrnsecadosmodelos,pormeiodemtricasdedesempenhopararegresso.  Anliseextrnsecadosmodelos,pormeiodesistemasdecompraevenda  ConceberumsistemacompletodecompraevendadaBitcoinusandoosmelhoresmodelos epolticasdecompraevendadisponveisdentreastestadas  NEW PAGE  4 3 JUSTIFICATIVA Hoje existem vrios sistemas automticos e semiautomticos de investimento, como ZuluTrade((ZULUTRADE,2021))eMetaTrader4((METATRADER4,2021)),ummercado enormequevisaintegrarvriostiposdeprodutos(derendaxaaaesdeempresas).Noentanto, criptomoedas so difceisde incorporar nessas carteirasde investimento porterem sido pouco estudadasaindaouporfaltaderegulamentao.Portanto,acriaodemodelosqueincorporam sistemas ecazes de predio das mesmas poderiam aumentar o potencial de diversicao oferecidoporestasplataformasdeinvestimento. O desenvolvimento de tal sistema  desaante tanto para teoria econmica quanto paraacomputacional,uma vezqueofereceaoportunidadeda descobertadenovas aplicaes, metodologias,anliseseutilidades.Assimcomaresoluodoproblema,implementandoum modelo preditivo, espera-se beneciar investidores ao diminuir a incerteza na hora de tomar decises.  NEW PAGE  5 4 REVISODALITERATURA Ocaptuloaseguirtemcomoobjetivoapresentar,demaneiraobjetiva,algunsconceitos bsicosparaoentendimentodessetrabalho. 4.1 CRIPTOMOEDAS Desde o lanamento da Bitcoin em 2009 o mercado de criptomoedas tem crescido exponencialmente, atingindo um pico de 800 bilhes de capitalizao de mercado em 2018 (COINMARKETCAP, 2021). O que comeou como um meio de pagamento descentralizado de pessoa pra pessoa para alguns, terminou como um tpico com crescente ateno da mdia e uma oportunidade de investimento para muitos. Esse grande crescimento atraiu tambm a atenodeautoridadesreguladorasquebuscamprincipalmenteleisdetaxaoecontralavagem de dinheiro, alm de investidores e recentemente de grandes corporaes que esto entrando nessemercado.Investidoresindividuaisgeralmentesoatradospelashistriasdesucessosde investidoresantigosatravsdamdia,aqualparcialmentetemcontribudoparadirecionaropreo daBitcoin. Agenteseconmicos efundos tambmvem buscandoesse mercadocomomaneira dediversicareseassegurar,assimtambmcomonegociadores(traders)quesebeneciamda altavolatilidade(PAPADIMITRIOU;GOGAS;GKATZOGLOU,2020). 4.1.1 BITCOIN Toda tecnologia e criptograa por trs da Bitcoin j o faz diferente das moedas du- cirias comuns, principalmente por causa da sua representao em possuir valor digital e sua decentralizao virtual. Nesse sentido, no h consenso entre os acadmicos em usar o termo moeda, para se referir ao Bitcoin. Alguns aspectos da Bitcoin diferem das moedas ducirias tradicionais e devem ser analisados como: meio de troca, unidade de conta e reserva de valor (NEVES,2020). O uso do dinheiro virtual tem aumentado como meio de troca, permitindo compra e
+
+
+DETAILED ANSWER:
+
+=======
+
+RESPONSE: 
+
+O LSTM foi treinado para implementar um modelo de aprendizado de máquina para prever o preço da Bitcoin. O treinamento envolveu a análise intrínseca dos modelos, através de métricas de desempenho para regressão, bem como a análise extrínseca dos modelos, através de sistemas de compra e venda. Além disso, foi concebido um sistema completo de compra e venda da Bitcoin usando os melhores modelos e políticas de compra e venda disponíveis entre os testados.

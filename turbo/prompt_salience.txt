@@ -1,0 +1,9 @@
+Given the following chat log, write a final answer to the user question.
+
+
+
+CHAT LOG:
+<<INPUT>>
+
+
+SALIENT POINTS:

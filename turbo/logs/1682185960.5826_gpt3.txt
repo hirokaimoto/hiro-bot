@@ -1,0 +1,17 @@
+PROMPT: 
+
+Use the following context to give a detailed answer to the question:
+
+QUESTION: Qual foi o valor de investimento para o projeto?
+
+
+CONTEXT: ablockchain,easuavalorizaonosltimosanosquechegouavaler$66.000USD, comomostraaFigura1. Essa valorizaoatraiu muitas pessoasqueviramumapotencialforma deinvestimento(COINMARKETCAP,2021). Figura1CotaodoBitcoinemUSD,nosltimos7anos. Fonte:COINMARKETCAP(2021) Muitosestudosforamconduzidosparaidenticarosprincipaisfatoresquedeterminam opreodaBitcoin,(MCNALLY;ROCHE;CATON,2018),(ROY;NANJIBA;CHAKRABARTY, 2018). Entretanto, poucas pesquisas foram feitas para tentar estimar ou prever o seu preo, o quesomadoasuaaltavolatilidadeeaperodosdebolhaespeculativaemqueoativosedesvia fortementedovalorintrnsecocorrespondentedessemesmo,atornamemuminvestimentode alto risco (KALYVAS et al., 2020). Estudos anteriores tentaram predizer o preo da Bitcoin comalgoritmosdeaprendizadode mquinaeestatsticos,indicandoassimqueessesalgoritmos possam ser relevantes como soluo. Por exemplo temos MCNALLY, ROCHE e CATON (2018),queusaramapenasosmodelosRNN(RecurrentNeuralNetwork),LSTMeARIMA,e obtiveramrespectivamenteumaacurcia(proximidadeentreovalorobtidoeovalorverdadeiro)  NEW PAGE  Captulo1. INTRODUO 2 na classicao de 50.25%, 52% e 50.05%, com periodicidade de 1 dia. Desse modo ca evidente que modelos como RNN e LSTM so ecientes, porm com resultados no muito impressionantesdevidoaaltavolatilidadenatarefa(MCNALLY;ROCHE;CATON,2018). Este trabalho tem o objetivo de comparar a eccia de diversos mtodos estatsticos e de aprendizado de mquina na predio do valor da criptomoeda Bitcoin. Para isso alguns algoritmoscomo:AR,MA,ARIMA,SES,PropheteLSTMserodesenvolvidosecomparados na tentativa de abordar tal problema. Como varivel de entrada somente o preo de fechamento ser usado, pois esse  o interesse da maioria dos investidores, tanto para os modelos com periodicidade de 1 dia como de 1 hora. J para o treino sero separados dados do perodo de 08/10/2015at15/05/2019(80%)eparatestesdoperodode16/05/2019at09/04/2020(20%). Aonal, paraquanticara usabilidadedomodelo, foramtambmimplementados sistemas que usamosalgoritmostestadospararealizaracompraevendadoBitcoinnaprtica. Este trabalho est organizado da seguinte forma: os Captulos 2 e 3, estabelecem os objetivos geral e especcos, respectivamente. No Captulo 4, encontra-se a reviso da literatura existente, e no Captulo 5 so abordados os materiais e mtodos que foram utilizados no desenvolvimento deste trabalho, abrangendo aspectos de coleta e preparao dos dados, treino para parametrizao dosmodelos, anliseintrnseca eextrnseca eobteno dosresultados. No Captulo6somostradosasanliseseosresultadosparaotrabalhoeconclusessoexpostas noCaptulo7.Porm,soapresentadasasrefernciasusadasaolongodestetrabalho  NEW PAGE  3 2 OBJETIVOS 2.1 OBJETIVOGERAL Compararodesempenhodediversosalgoritmosestatsticosedeaprendizadodem- quinanaprediodacotaodaBitcoin,tantodeformaintrnseca,quantoextrnseca. 2.2 OBJETIVOSESPECFICOS  Implementar modelos de regresso (AR, MA, ARIMA, SES e Prophet) para predizer o
+
+
+DETAILED ANSWER:
+
+=======
+
+RESPONSE: 
+
+Não há informações sobre o valor de investimento para o projeto. O objetivo geral do projeto é comparar o desempenho de diversos algoritmos estatísticos e de aprendizado de máquina na previsão do preço da Bitcoin, tanto de forma intrínseca quanto extrínseca. Os objetivos específicos incluem a implementação de modelos de regressão (AR, MA, ARIMA, SES e Prophet) para prever o preço da Bitcoin.

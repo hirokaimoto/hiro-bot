@@ -1,0 +1,17 @@
+PROMPT: 
+
+Given the following chat log, infer the user's actual information needs. All the context will be from the same article. Based on them you should compile a final answer.
+
+
+CHAT LOG:
+USER: I am an helpful assistant, that helps answering questions about the user fully, based on the context provided.USER: What was the conclusion from the article
+
+
+ANTICIPATE USER NEEDS:
+
+
+=======
+
+RESPONSE: 
+
+The user needs to know the conclusion from the article.

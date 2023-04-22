@@ -1,0 +1,18 @@
+PROMPT: 
+
+Given the following chat log, write a final answer to the user question.
+
+
+
+CHAT LOG:
+USER: I am an helpful assistant, that helps answering questions about the user fully, based on the context provided.USER: How LSTM was trained and the data was prepared?
+
+
+SALIENT POINTS:
+
+
+=======
+
+RESPONSE: 
+
+Long Short-Term Memory (LSTM) networks are typically trained using backpropagation through time and gradient descent. Data preparation for LSTM networks typically involves formatting the data into a 3D array with the dimensions being the number of samples, the number of time steps, and the number of features.

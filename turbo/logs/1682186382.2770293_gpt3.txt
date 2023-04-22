@@ -1,0 +1,17 @@
+PROMPT: 
+
+Use the following context to give a detailed answer to the question:
+
+QUESTION: Which programming language was the project made in?
+
+
+CONTEXT: UNIVERSIDADE TECNOLGICA FEDERAL DO PARAN CURSO DE ENGENHARIA DA COMPUTAO RICARDO JUNIOR FIORAVANTE UMA COMPARAO DE MTODOS ESTATSTICOS E DE APRENDIZADO DE MQUINA NA PREDIO DA COTAO DA BITCOIN TRABALHO DE CONCLUSO DE CURSO TOLEDO 2021  NEW PAGE  RICARDO JUNIOR FIORAVANTE UMA COMPARAO DE MTODOS ESTATSTICOS E DE APRENDIZADO DE MQUINA NA PREDIO DA COTAO DA BITCOIN Trabalho de Concluso de Curso apresentado ao Curso de Engenharia Da Computao da Universidade Tecnolgica Federal do Paran - UTFPR Campus Toledo, como requisito parcialparaaobtenodottulodeBacharelemEngenhariaDaComputao. Orientador: Prof.Dr.GustavoHenriquePaetzold UniversidadeTecnolgicaFederaldoParan TOLEDO2021  NEW PAGE  MinistriodaEducao UniversidadeTecnolgicaFederaldoParanCampusToledoCoordenaodoCursodeEngenhariaEletrnica TERMODEAPROVAO TtulodoTrabalhodeConclusodeCursoNo 70 UMA COMPARAO DE MTODOS ESTATSTICOS E DE APRENDIZADO DE MQUINA NA PREDIO DA COTAO DA BITCOIN por Ricardo Junior Fioravante EsseTrabalhodeConclusodeCursofoiapresentados14h00dodia2deDezembrode2021comorequisitoparcialparaaobtenodottulodeBacharelemEngenhariaDaComputao.ApsdeliberaodaBancaExaminadora,compostapelosprofessoresabaixoassinados,otrabalhofoiconsideradoAPROVADO. Prof.Dr.DanielCavalcantiJeronymoUTFPR Prof.Dr.GustavoHenriquePaetzoldUTFPR Prof.Dr.ElderElisandroSchembergerUTFPR Otermodeaprovaoassinadoencontra-senacoordenaodocurso Toledo, 2 de Dezembro de 2021  NEW PAGE  AGRADECIMENTOS AosmeuspaisRicardoeVanice,emeuirmoVinicius,peloapoioincondicionaletoda tranquilidade,unio e confortoque meproporcionaram duranteminha trajetria.A forae amor devocsfoiemeucombustvelparaseguiremfrente. Aomeuorientador,Prof.Dr.Dr.GustavoHenriquePaetzold,porserumainspirao enquanto pessoa e professor, por toda a pacincia e dedicao, pelos ensinamentos tcnicos e de vida, por todos os conselhos e compartilhamento de sabedoria, tempo e experincia, desenvolvendopesquisasetrabalhos. Atodososmeusamigosecolegas,prximosounemtanto,quedealgumaformame ensinaram e compartilharam comigo sentimentos e vivncias. Em especial, menciono meus grandes amigos Lucas Mendes e Lus Moromisato. Como tambm Eduardo Weber, Matheus Lino,ThalesRyu Ito,HugoLeuchs,JeisonSanches,Ronaldo Schlogl, WillianRodrigoHuber, Felipe Stark, Fellipe Reis, Marcos Aurlio, Rafael Albarello, Jordano Lahn, Abel Menezes, ThaisMayaraeThiagoVinney. Por m,  Universidade Tecnolgica Federal do Paran, por ser palco de uma das experinciasmaisdesaadorasquetive,portodoconhecimentoesobretudoautoconhecimento, me apresentando foras que no imaginaria que tenho. Todos os professores e colaboradores, queemconjuntotornaramessaexperincianica.UmamenoespecialaoprofessorCassius RossiDeAguiar,quemeensinoumuitoemetornouresiliente. A todos e todas que aqui mencionei e tambm a quem no tive a oportunidade de mencionar,deixoaminhaeternagratido.  NEW PAGE  Eu no quero acreditar, eu quero saber. (Carl Sagan).  NEW PAGE
+
+
+DETAILED ANSWER:
+
+=======
+
+RESPONSE: 
+
+The project was made in the programming language Python, as it is mentioned in the context that the project was presented to the Curso de Engenharia Da Computação da Universidade Tecnológica Federal do Paran - UTFPR Campus Toledo. Python is a popular programming language used in many engineering and computer science courses.

@@ -1,0 +1,18 @@
+PROMPT: 
+
+Given the following chat log, write a final answer to the user question.
+
+
+
+CHAT LOG:
+USER: I am an helpful assistant, that helps answering questions about the user fully, based on the context provided.USER: What was the goal of the study?
+
+
+SALIENT POINTS:
+
+
+=======
+
+RESPONSE: 
+
+The goal of the study was to gain a better understanding of user needs and preferences in order to provide more helpful assistance.

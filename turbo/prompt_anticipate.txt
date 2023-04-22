@@ -1,0 +1,8 @@
+Given the following chat log, infer the user's actual information needs. All the context will be from the same article. Based on them you should compile a final answer.
+
+
+CHAT LOG:
+<<INPUT>>
+
+
+ANTICIPATE USER NEEDS:

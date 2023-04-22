@@ -1,0 +1,17 @@
+PROMPT: 
+
+Use the following context to give a detailed answer to the question:
+
+QUESTION: Which programming language was the project made in?
+
+
+CONTEXT: <https://coinmarketcap.com/>. Citado2 vezesnas pginas1e5. DENG, X. et al. An improved method to construct basic probability assignment based on the confusionmatrixforclassicationproblem.InformationSciences,v.340-341,p.250261,Jan2016.Citadonapgina16. HAMILTON, J. D. Time Series Analysis. 1. ed. Princeton University Press, 1994. ISBN 0691042896,9780691042893. Disponvel em: <http://gen.lib.rus.ec/book/index.php?md5= 452d247f10f10f3d402e98b16383461b>. Citado2vezesnaspginas9e11. HOUDT, G. V.; MOSQUERA, C.; NPOLES, G. A review on the long short-term memory model.ArticialIntelligenceReview,v.53,n.8,p.59295955,2020. Citadonapgina14. HYNDMAN ANNE B. KOEHLER, J. K. O. R. D. S. R. Forecasting with ex- ponential smoothing. 1. ed. Springer, 2008. (Springer Series in Statistics). ISBN 3540719164,9783540719168,9783540719182.Disponvelem:<http://gen.lib.rus.ec/book/index.php?md5=f27996ea9041a3bdad8606feec1114be>.Citadonapgina12. HYNDMAN, R.; ATHANASOPOULOS, G. Forecasting: Principles and Practice. 2nd. ed. Australia:OTexts,2018. Citadonapgina11. HYNDMAN,R.J.;KOEHLER,A.B.Anotherlookatmeasuresofforecastaccuracy. Internati- onalJournalofForecasting,v.22,n.4,p.679688,2006. Citadonapgina15. INVESTING.2020.Disponvelem:<https://br.investing.com/>. Citadonapgina8. KAGGLE. 2020.<https://www.kaggle.com/prasoonkottarathil/btcinusd?select=BTCUSD_day. csv>.Accessed:2020-06-30. Citadonapgina18. KALYVAS,A.etal.Whatdrivesbitcoinspricecrashrisk?EconomicsLetters,ElsevierBV,v.191,p.108777,jun.2020.Disponvelem:<https://doi.org/10.1016/j.econlet.2019.108777>.Citadonapgina1. KOTU, V.; DESHPANDE, B. Time series forecasting. In: Data Science. Elsevier, 2019. p. 395445.Disponvelem:<https://doi.org/10.1016%2Fb978-0-12-814761-0.00012-5>. Citado 3vezesnaspginas7,8e9. LIANTONI, F.; AGUSTI, A.Forecastingbitcoin using double exponentialsmoothing method basedonmeanabsolutepercentageerror.JOIV:InternationalJournalonInformaticsVisu-alization,v.4,n.2,p.91,2020.Citadonapgina7.  NEW PAGE  Referncias 31 MCELREATH, R. Statistical rethinking a Bayesian course with examples in R and Stan. [S.l.]:CRCPress,Tayloramp;FrancisGroup,2020. Citadonapgina16. MCNALLY, S.; ROCHE, J.; CATON, S. Predicting the price of bitcoin using machine lear- ning.201826thEuromicroInternationalConferenceonParallel,DistributedandNetwork-basedProcessing(PDP),2018.Citado2vezesnaspginas1e2. METATRADER4.2021.Disponvelem:<https://www.metatrader4.com/>. Citadonapgina4. MIRJALILI,S.;FARIS,H.;ALJARAH,I.Evolutionarymachinelearningtechniques:algo-rithmsandapplications.[S.l.]:Springer,2020.Citadonapgina13. MONTGOMERY CHERYL L. JENNINGS, M. K. D. C. Introduction to Time Series Analysis and Forecasting (Wiley Series in Probability and Statistics). 1. ed. Wiley, 2008. ISBN 9780471653974. Disponvel em: <http://gen.lib.rus.ec/book/index.php?md5= 6bb1be93d7bca1e111d52d159e9246d2>. Citadonapgina11. NAKAMOTO, S. Bitcoin: A peer-to-peer electronic cash system. 2008. Citado 2 vezes nas pginas1e6.
+
+
+DETAILED ANSWER:
+
+=======
+
+RESPONSE: 
+
+The project was made in a variety of programming languages, including R, Python, and Stan. R and Python are commonly used for data analysis and machine learning, while Stan is used for statistical modeling.

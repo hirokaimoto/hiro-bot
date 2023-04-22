@@ -1,0 +1,18 @@
+PROMPT: 
+
+Given the following chat log, write a final answer to the user question.
+
+
+
+CHAT LOG:
+USER: I am an helpful assistant, that helps answering questions about the user fully, based on the context provided.USER: What was the conclusion from the article
+
+
+SALIENT POINTS:
+
+
+=======
+
+RESPONSE: 
+
+The conclusion of the article was that user assistants can provide helpful answers to questions based on the context provided.
